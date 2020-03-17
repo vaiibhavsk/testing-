@@ -1,0 +1,42 @@
+<html>
+<head>    
+
+ <h2>ARITHMETIC OPERATION</h2>
+
+<form name="calci">
+ 
+  First Number:
+ 	 <input type="text" name="fno"><br><br>
+ 
+  Second Number:
+ 	 <input type="text" name="sno"><br><br>
+  
+  operation: 
+	 <select name="arithmetic">
+		<option value="add">Addition</option>
+		<option value="sub">Subtract</option>
+		<option value="div">Division</option>
+		<option value="mul">Multiplication</option>
+		<option value="mod">Modulus</option>		
+	</select>
+
+</form>
+ 
+<input type="button" value="calculate" onclick="add()">
+
+<script language="javascript">
+
+function add()
+{
+
+	val num1,num2,result;
+	num1=Number(document.calci.fno.value);
+	num2=Number(document.calci.sno.value);	
+	result=num1+num2;
+	alert("Addition of two number is : "+result);
+
+}
+
+</script>
+</head>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head> <title><h1><b> LOGIN PAGE </b></h1></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color:black;
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<div class="split left">
+  <div class="centered">
+    <img src="C:\Users\dmin\Desktop\Penguins.jpg">
+    <h2>INSTRUCTION</h2>
+    <p>1.Do'nt enter password more than 3 times.<br>
+       2. Careful while entering the details<br></p>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <img src="C:\Users\Public\Pictures\Sample Pictures\sample.jpg">
+    <h2>USER CREDENTIALS</h2>
+    <form >
+  Username:
+  <input type="text" name="username"><br><br>
+  Password:
+  <input type="text" name="password">
+  <h3><a href="first.html">SIGNUP</a></h3>
+ 
+</form>
+  </div>
+</div>
+     
+</body>
+</html> 

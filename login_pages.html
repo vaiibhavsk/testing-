@@ -1,0 +1,51 @@
+<html>
+<head><center><h1><b> LOGIN PAGE </b></h1></center></head>
+<body>
+
+<style>
+.para
+{
+
+font family: verdana;
+font weight: normal;
+color: blue;
+border: 2px solid;
+border-radius: 4px;
+text-align:center;
+}
+
+</style>
+
+
+<br><br>
+<div class="para">
+
+<form name="log">
+
+  Username:
+  <input type="text"  name="un"><br><br>
+
+  Password:
+  <input type="password" name="pwd"><br><br>
+
+  <input type="button" value="submit" onclick="check()">
+
+</form>
+
+
+<script language="javascript">
+function check()
+    {
+ 	if(log.un.value=="vaibhav" && log.pwd.value=="12345")
+		{
+		  alert("SUCCESSFULLY LOGIN ")
+		}
+	
+	else    {
+		  alert("INVALID USER !!!!")
+	        }
+    }
+	
+</script>
+</div>
+</html>
